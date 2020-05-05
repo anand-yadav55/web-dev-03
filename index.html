@@ -172,9 +172,19 @@
 						<ol>
 							<li>Anand Yadav</li>
 							<li>XYZ ABC</li>
-							<li>UIP OPIP</li>
+							<li id="qw" >UIP OPIP</li>
 						</ol>
-						<a href="">+</a>
+						<button >+</button>
+						<script>
+							let theButton=document.querySelector("button");
+							theButton.onclick=function(){
+								let contributor=document.getElementById("qw");
+								let contributorName=prompt("Enter Your Name");
+								
+
+								contributor.textContent=contributorName;
+							}
+						</script>
 						<a href="#">contribute now</a>
 						<p>you can add your name by clicking "+" after clicking on contribute now</p>
 					</div>
