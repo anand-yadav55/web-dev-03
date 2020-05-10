@@ -169,6 +169,7 @@ p{
 	border: 3px solid black;
 	box-shadow: 0 0 10px black;
 	padding-left: 4px;
+	overflow:scroll;
 }
 .contributers p, .contributers a{
 	text-align: center;
